@@ -1,0 +1,31 @@
+{
+  "name": "demo-react-scripts-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/material-ui": "^0.18.2",
+    "@types/react-redux": "^5.0.10",
+    "@types/redux-actions": "^2.2.2",
+    "immutable": "^3.8.2",
+    "material-ui": "^0.19.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-scripts-ts": "2.7.0",
+    "react-tap-event-plugin": "^3.0.2",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^21.1.2",
+    "@types/node": "^8.0.33",
+    "@types/react": "^16.0.10",
+    "@types/react-dom": "^16.0.1"
+  }
+}
