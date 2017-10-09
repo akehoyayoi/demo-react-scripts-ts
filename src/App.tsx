@@ -24,7 +24,9 @@ interface MainAppProps {
     updateState: (d: MainState) => void;
 }
 
-class MainApp extends React.Component<MainAppProps, {}> {
+interface MainAppState {}
+
+class MainApp extends React.Component<MainAppProps, MainAppState> {
     render() {
         const {
             data,
@@ -49,7 +51,10 @@ class MainApp extends React.Component<MainAppProps, {}> {
     }
 }
 
-class App extends React.Component<{}, {}> {
+interface AppProps {}
+interface AppState {}
+
+class App extends React.Component<AppProps, AppState> {
     render() {
         const updateState = createAction<MainState>('UPDATE_MODEL');
         const store = createStore(handleActions<MainState>(
